@@ -40,7 +40,7 @@ fn get_to_send(id: &str) -> String {
 }
 
 pub fn launch() {
-    let token = "NzIzNTU4MzY1MjYzMDM2NDI4.XxI5Tw.TUpfWXbaHm_sUYtavc9O6m1Vx84";
+    let token = "discord token key";
     let mut client = Client::new(&token, Handler).expect("Error creating the client");
     if let Err(why) = client.start() {
         println!("Client error: {:?}", why);
